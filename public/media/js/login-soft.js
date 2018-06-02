@@ -22,10 +22,10 @@ var Login = function () {
 
 	            messages: {
 	                username: {
-	                    required: "Username is required."
+	                    required: "账号必须填写."
 	                },
 	                password: {
-	                    required: "Password is required."
+	                    required: "密码必须填写."
 	                }
 	            },
 
