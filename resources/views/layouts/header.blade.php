@@ -47,5 +47,7 @@
     <!-- END PAGE LEVEL STYLES -->
 
     <link rel="shortcut icon" href="{{ asset('media/image/favicon.ico') }}" />
+    <link rel="stylesheet" href="{{ asset('css/page.css') }}">
+
 
 </head>

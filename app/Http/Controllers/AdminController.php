@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
-class UserController extends Controller
+class AdminController extends Controller
 {
     /**
      * 中间件
@@ -29,7 +29,7 @@ class UserController extends Controller
     }
 
     /**
-     * 用户登录逻辑
+     * 管理员登录逻辑
      *
      * @param Request $request
      * @return \Illuminate\Http\RedirectResponse
@@ -58,7 +58,7 @@ class UserController extends Controller
     }
 
     /**
-     * 用户退出登录
+     * 管理员退出登录
      *
      * @return \Illuminate\Http\RedirectResponse
      */

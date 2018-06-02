@@ -29,17 +29,27 @@
         <li class="">
             <a href="javascript:;">
                 <i class="icon-cogs"></i>
-                <span class="title">布局</span>
+                <span class="title">用户管理</span>
                 <span class="arrow "></span>
             </a>
             <ul class="sub-menu">
                 <li >
-                    <a href="maps_google.html">
-                        Google Maps</a>
+                    <a href="{{ route('user_lists') }}">
+                        用户列表</a>
                 </li>
+            </ul>
+        </li>
+
+        <li class="">
+            <a href="javascript:;">
+                <i class="icon-cogs"></i>
+                <span class="title">商家管理</span>
+                <span class="arrow "></span>
+            </a>
+            <ul class="sub-menu">
                 <li >
-                    <a href="maps_vector.html">
-                        Vector Maps</a>
+                    <a href="{{ route('merchant_lists') }}">
+                        商家列表</a>
                 </li>
             </ul>
         </li>
